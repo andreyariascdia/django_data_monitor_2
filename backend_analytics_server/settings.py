@@ -121,7 +121,7 @@ STATIC_URL = "/static/"
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
-API_URL = 'https://jsonplaceholder.typicode.com/posts'
+API_URL = 'https://aarias.pythonanywhere.com/landing/api/index/'
 
 CSRF_TRUSTED_ORIGINS = [
   "https://*.app.github.dev", # Solo si utiliza Codespaces
