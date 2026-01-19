@@ -139,7 +139,7 @@ API_URL = 'https://aarias.pythonanywhere.com/landing/api/index/'
 CSRF_TRUSTED_ORIGINS = [
   "https://*.app.github.dev", # Solo si utiliza Codespaces
   "https://localhost:8000",
-  "http://127.0.0.1:8000"
+  "http://127.0.0.1:8000",
   "https://*.up.railway.app"
 ]
 
